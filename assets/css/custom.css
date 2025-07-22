@@ -272,6 +272,62 @@ background:#007bff;
   }
 
 
+/*overview css*/
+
+ .banner-image {
+    position: relative;
+  }
+
+  .banner-image a {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 8px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.266);
+    transition: all 0.3s ease;
+    font-size: clamp(11px, 2.5vw, 16px);
+  }
+
+  .sand-creek-link {
+    right: 16%;
+    top: 5%;
+    transform: translate(0, 0);
+  }
+
+  .lenz-link {
+    left: 56%;
+    top: 43.5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .liston-link {
+    left: 4%;
+    bottom: 9%;
+    transform: translate(0, 0);
+  }
+
+  
+  .sand-creek-link:hover,
+  .liston-link:hover {
+    color: var();
+    transform: translateY(-3px);
+  }
+
+  .lenz-link:hover {
+    color: #0000ff;
+    transform: translate(-50%, calc(-50% - 3px));
+  }
+
+
+
+
+
+
+
+
 /*about us css*/
   
   .img-border {

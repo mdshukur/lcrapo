@@ -26,6 +26,13 @@
   .intro_contents h5{
   width: 100%;
 }
+
+    .lenz-link {
+        left: 53%;
+        top: 41.5%;
+        transform: translate(-50%, -50%);
+    }
+
 .intro_section {
     height: 52vh;
 }
